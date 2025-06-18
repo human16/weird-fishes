@@ -6,9 +6,9 @@ const PORT = 3000;
 
 app.use(express.static('public'));
 
-app.get('/fish-data', (req, res) => {
+app.get('./rumfssf_matched_detections_2024_cleaned.csv', (req, res) => {
   const results = [];
-  fs.createReadStream('data.csv')
+  fs.createReadStream('rumfssf_matched_detections_2024_cleaned.csv')
     .pipe(csv())
     .on('data', (row) => {
       results.push(row);
