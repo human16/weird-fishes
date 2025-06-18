@@ -1,4 +1,3 @@
 #I was told never to tell secrets in public, but I guess secretive secrets are fine.
 secret.json
-rumfssf_matched_detections_2024_cleaned.csv
-rumfssf_matched_detections_2025_cleaned.csv
+*.csv
